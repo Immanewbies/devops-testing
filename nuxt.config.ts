@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-05-15',
   devtools: { enabled: true },
-  modules: [ '@nuxt/test-utils/module' ],
+  modules: ['@nuxt/test-utils/module', '@nuxt/eslint'],
   typescript: {
         tsConfig: {
           compilerOptions: {
